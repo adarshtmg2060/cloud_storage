@@ -1,5 +1,5 @@
-import React from 'react';
-import { APP_NAME } from "../constants/app";
+// import React from 'react';
+import { APP_NAME } from "../constants/App";
 import Cloud_Icon from "../assets/cloud-icon.svg";
 import Input from "../ui/component/Input/Input";
 import Button from "../ui/component/Button/Button";
