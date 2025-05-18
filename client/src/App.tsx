@@ -1,18 +1,13 @@
 // import React from 'react'
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
-import Login from "./pages/Login"
-import Signup from "./pages/Signup"
-import Home from "./pages/Home"
-import PasswordRecovery from "./pages/PasswordRecovery"
-import NotFound from "./pages/NotFound"
-import VerifyUser from "./pages/VerifyUser"
-import ProfileManagement from "./pages/ProfileManagement"
+import { Home,Login,MyDrive,Signup,PasswordRecovery,ProfileManagement,VerifyUser,NotFound } from "./pages"
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/my-drive" element={<MyDrive/>} />
         <Route path="/sign-up" element={<Signup/>} />
         <Route path="/password-recovery" element={<PasswordRecovery/>} />
         <Route path="/profile" element={<ProfileManagement/>} />
